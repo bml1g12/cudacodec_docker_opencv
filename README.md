@@ -22,4 +22,6 @@ terminate called after throwing an instance of 'cv::Exception'
   what():  OpenCV(4.3.0) /opencv-4.3.0/modules/core/include/opencv2/core/private.cuda.hpp:115: error: (-213:The function/feature is not implemented) The called functionality is disabled for current build or platform in function 'throw_no_cuda'
 ```
 
+Same issue with Dockerfile_2. To compile in this case you only need to link /usr/local/lib/liboncv_world in the ./compile/run 
+
 https://github.com/opencv/opencv_contrib/issues/1786 
