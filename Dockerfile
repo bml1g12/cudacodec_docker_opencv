@@ -1,6 +1,5 @@
 # Ben changed from cuda 10.2 to 10.1 to match his system 
 FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
-MAINTAINER Devin Yang <pistonyang@gmail.com>
 WORKDIR /
 COPY . .
 #RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak \
