@@ -1,14 +1,18 @@
-Requirements: 
+**Requirements:**
 
 Download from NVIDIA:
 
-Video_Codec_SDK_9.1.23.zip
-opencv_contrib-4.3.0.zip
-opencv-4.3.0.zip
-An example video file, named "20200829_045708_B8B2.mkv" 
+* Video_Codec_SDK_9.1.23.zip
+* opencv_contrib-4.3.0.zip
+*  opencv-4.3.0.zip
+
+Ensure to include:
+
+* An example video file, named "20200829_045708_B8B2.mkv" 
 
 And place then all in the root directory.
 
+**What is this?**
 
 Adapted from https://github.com/opencv/opencv/issues/17649 
 Downgraded cuda by 0.1 to match my machine CUDA
