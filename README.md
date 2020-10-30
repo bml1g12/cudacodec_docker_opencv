@@ -27,3 +27,10 @@ terminate called after throwing an instance of 'cv::Exception'
 ```
 
 https://github.com/opencv/opencv_contrib/issues/1786 
+
+**Other options**
+* There's docs on how to do it for windows here:
+https://jamesbowley.co.uk/accelerate-opencv-4-3-0-build-with-cuda-and-python-bindings/
+
+
+* Maybe installing a build of ffmpeg with CUDA support and passing frames https://medium.com/@fanzongshaoxing/use-ffmpeg-to-decode-h-264-stream-with-nvidia-gpu-acceleration-16b660fd925d would be viable? https://github.com/Zulko/moviepy/blob/344aa04913e4523626cb0e01905dfbf0e8679fa5/moviepy/video/io/ffmpeg_writer.py#L15
